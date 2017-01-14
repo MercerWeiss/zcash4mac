@@ -312,7 +312,7 @@ public class ZCashUI
 
                 JOptionPane.showMessageDialog(
                     ZCashUI.this.getRootPane().getParent(),
-                    "The ZCash GUI Wallet is currently considered experimental. Use of this software\n" +
+                    "The ZClassic GUI Wallet is currently considered experimental. Use of this software\n" +
                     "comes at your own risk! Be sure to read the list of known issues and limitations\n" +
                     "at this page: \n" +
                     "https://github.com/vaklinov/zcash-swing-wallet-ui#known-issues-and-limitations\n\n" +
