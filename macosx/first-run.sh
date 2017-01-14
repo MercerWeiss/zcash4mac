@@ -15,6 +15,6 @@ fi
 
 ADDR=~/Library/Application\ Support/zclassic4mac/addressBook.csv
 if [ ! -f "${ADDR}" ]; then
-    echo "t1WjQ6yqv8Yh9pcc2f4JMrMpVJ3LNQXFt3u,zcash4mac donations" >> "${ADDR}"
-    echo "t1VAggo7RusLVBzHSeYbGkxDQQhLZyigxty,ZCashSwingUI donations" >> "${ADDR}"
+    echo "t1PeC873FeGPJQGEd8xY5wLb4Z1iQipC4tP,zclassic4mac donations" >> "${ADDR}"
+#    echo "t1VAggo7RusLVBzHSeYbGkxDQQhLZyigxty,ZCashSwingUI donations" >> "${ADDR}"
 fi

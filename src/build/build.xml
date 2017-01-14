@@ -149,7 +149,7 @@
 		<fx:application id="wallet"
 			name="zclassic4mac" 
 			mainClass="${main-class}"
-			version="1.0.4-208"/>
+			version="@version@"/>
 		
 		<fx:resources id="appRes">
 			<fx:fileset type="jar" dir="lib" includes="**/*.jar" />
@@ -193,7 +193,7 @@
 
 				<fx:jvmarg value="-Djava.util.logging.config.file=logging.properties" />
 				<fx:jvmarg value="-Dwallet.name=zclassic4mac" />
-				<fx:jvmarg value="-Dwallet.version=1.0.4-208"/>
+				<fx:jvmarg value="-Dwallet.version=@version@"/>
 			</fx:platform>
 			
 			<fx:bundleArgument arg="mac.signing-key-user-name" value="${env.SIGN_WITH}"/>
