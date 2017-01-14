@@ -1,8 +1,8 @@
 .PHONY: default
 default: macapp ;
 
-APPNAME=zcash4mac
-APPBUNDLE=build/osxapp/zcash4mac.app
+APPNAME=zclassic4mac
+APPBUNDLE=build/osxapp/zclasic4mac.app
 APPBUNDLECONTENTS=$(APPBUNDLE)/Contents
 APPBUNDLEEXE=$(APPBUNDLECONTENTS)/MacOS
 APPBUNDLERESOURCES=$(APPBUNDLECONTENTS)/Resources
@@ -23,7 +23,7 @@ appbundle: zcash-bin
 
 icons: macosx/$(APPNAME)Icon.png appbundle
 	cp macosx/$(APPNAME).icns $(APPBUNDLEICON)/
-	sed -i '' 's/GenericApp.icns/zcash4mac.icns/' $(APPBUNDLECONTENTS)/Info.plist
+	sed -i '' 's/GenericApp.icns/zclass4mac.icns/' $(APPBUNDLECONTENTS)/Info.plist
 	rm $(APPBUNDLERESOURCES)/GenericApp.icns
 
 zcash-bin:

@@ -9,19 +9,19 @@
   <key>CFBundleAllowMixedLocalizations</key>
   <true/>
   <key>CFBundleExecutable</key>
-  <string>zcash4mac</string>
+  <string>zclassic4mac</string>
   <key>CFBundleIconFile</key>
-  <string>zcash4mac.icns</string>
+  <string>zclassic4mac.icns</string>
   <key>CFBundleIdentifier</key>
   <string>wallet</string>
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
   <key>CFBundleName</key>
-  <string>zcash4mac</string>
+  <string>zclassic4mac</string>
   <key>CFBundlePackageType</key>
   <string>APPL</string>
   <key>CFBundleShortVersionString</key>
-  <string>@shortversion@</string>
+  <string>1.0.4</string>
   <key>CFBundleSignature</key>
   <string>ZC4M</string>
   <!-- See http://developer.apple.com/library/mac/#releasenotes/General/SubmittingToMacAppStore/_index.html
@@ -29,7 +29,7 @@
   <key>LSApplicationCategoryType</key>
   <string>Financial</string>
   <key>CFBundleVersion</key>
-  <string>@build@</string>
+  <string>208</string>
   <key>NSHumanReadableCopyright</key>
   <string>Copyright (C) 2016 David Mercer</string>
   <key>NSHighResolutionCapable</key>
