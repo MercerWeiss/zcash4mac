@@ -478,7 +478,7 @@ public class SendCashPanel
 								"<html><span style=\"color:green;font-weight:bold\">SUCCESSFUL</span></html>");
 							JOptionPane.showMessageDialog(
 									SendCashPanel.this.getRootPane().getParent(), 
-									"Succesfully sent " + amount + " ZEC from address: \n" +
+									"Succesfully sent " + amount + " ZCL from address: \n" +
 									sourceAddress + "\n" +
 									"to address: \n" +
 									destinationAddress + "\n", 
