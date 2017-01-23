@@ -8,7 +8,7 @@ APPBUNDLEEXE=$(APPBUNDLECONTENTS)/MacOS
 APPBUNDLERESOURCES=$(APPBUNDLECONTENTS)/Resources
 APPBUNDLEICON=$(APPBUNDLECONTENTS)/Resources
 BUILD ?= $(shell git rev-list HEAD | wc -l|tr -d [:space:])
-SHORTVERSION = 1.0.4
+SHORTVERSION = 1.0.4a
 VERSION ?= $(SHORTVERSION)-$(BUILD)
 appbundle: zcash-bin
 	sed -i '.bak' 's/@version@/'"$(VERSION)"'/g' src/build/build.xml
