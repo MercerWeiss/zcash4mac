@@ -254,7 +254,7 @@ public class WalletOperations
 				"The wallet private keys have been exported successfully to location:\n" +
 				f.getCanonicalPath() + "\n\n" +
 				"You need to protect this file from unauthorized access. Anyone who\n" +
-				"has access to the private keys can spend the ZCash balance!",
+				"has access to the private keys can spend the Zclassic balance!",
 				"Wallet private key export...", JOptionPane.INFORMATION_MESSAGE);
 			
 		} catch (Exception e)
