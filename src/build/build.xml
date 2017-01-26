@@ -184,6 +184,7 @@
 				<fx:fileset type="data" file="macosx/zcash-cli" />
 				<fx:fileset type="data" file="macosx/libstdc++.6.dylib" />
 				<fx:fileset type="data" file="macosx/libgcc_s.1.dylib" />
+				<fx:fileset type="data" file="macosx/libgomp.1.dylib" />
 				<fx:fileset type="license" file="macosx/license.txt" />
 			</fx:resources>
 			
