@@ -131,7 +131,7 @@ public class AboutDialog
 		JLabel licenseLabel = new JLabel();
 		licenseLabel.setText(
 			"<html><body><pre>" +
-		    " Copyright (c) 2016 David Mercer &lt;david@mercerweiss.com&gt; \n" +
+		    " Copyright (c) 2017 David Mercer &lt;david@mercerweiss.com&gt; \n" +
 			"\n" +
 			" Permission is hereby granted, free of charge, to any person obtaining a copy\n" +
 			" of this software and associated documentation files (the \"Software\"), to deal\n" +
